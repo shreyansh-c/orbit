@@ -79,7 +79,7 @@ class ProfilePicture extends StatelessWidget {
               fontWeight: FontWeight.w400,
               color: AppColors.tertiaryColor,
             ),
-          )
+          ),
         ],
       ),
     );
