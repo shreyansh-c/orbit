@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:orbit_app/utils/colors.dart';
 
-class CustomButton extends StatelessWidget {
+class SecondaryButton extends StatelessWidget {
   final Route route;
   final String label;
 
-  const CustomButton({Key? key, required this.route, required this.label})
+  const SecondaryButton({Key? key, required this.route, required this.label})
       : super(key: key);
 
   @override
@@ -28,16 +28,15 @@ class CustomButton extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 20),
         child: Row(
-          mainAxisSize: MainAxisSize.min,
           children: [
             Padding(
-              padding: const EdgeInsets.only(left: 60, right: 60),
+              padding: const EdgeInsets.only(left: 0, right: 0),
               child: Text(
                 label,
                 style: GoogleFonts.poppins(
                   fontSize: 18,
                   fontWeight: FontWeight.w500,
-                  color: AppColors.tertiaryColor,
+                  color: Colors.black,
                 ),
               ),
             ),

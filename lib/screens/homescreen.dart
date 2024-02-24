@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:orbit_app/screens/settings.dart';
 import 'package:orbit_app/utils/colors.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -27,7 +28,13 @@ class HomeScreen extends StatelessWidget {
                     width: 183,
                   ),
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const SettingsPage(),
+                          ));
+                    },
                     icon: Container(
                       height: 30,
                       width: 30,
