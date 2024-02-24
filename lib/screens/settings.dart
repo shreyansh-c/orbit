@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:orbit_app/screens/homescreen.dart';
 import 'package:orbit_app/utils/buttonsec.dart';
 import 'package:orbit_app/utils/colors.dart';
-import 'package:orbit_app/utils/custombutton.dart';
 import 'package:orbit_app/utils/picupload.dart';
 
 class SettingsPage extends StatelessWidget {
